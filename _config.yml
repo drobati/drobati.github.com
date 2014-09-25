@@ -1,0 +1,20 @@
+# Site settings
+title: Derek Robati
+email: derek.robati@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    My personal ancedotes about programming and my other hobbies.
+baseurl: ""
+url: "http://robati.com" # the base hostname & protocol for your site
+twitter_username: drobati
+github_username:  drobati
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+github: [Repository metadata]
+
+# Bookshelf
+collections:
+  books:
+    output: true
+    permalink: /books/:path/
