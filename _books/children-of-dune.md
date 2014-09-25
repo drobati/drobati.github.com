@@ -1,0 +1,10 @@
+---
+layout: book
+title: Children of Dune
+author: Frank Herbert
+series: Dune Chronicles
+order: Dune Chronicles 2
+categories: science-fiction fantasy
+year: 1976
+coverphoto: children-of-dune.jpeg
+---
