@@ -1,10 +1,11 @@
 ---
 layout: book
-title: The Eye of The World
+title: The Dragon Reborn
 author: Robert Jordan
 series: The Wheel of Time
-volume: 1
+volume: 2
 categories: fantasy
-year: 1990
-coverphoto: eye-of-the-world.jpeg
+year: 1991
+coverphoto: dragon-reborn.jpg
 ---
+

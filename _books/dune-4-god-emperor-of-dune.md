@@ -1,10 +1,11 @@
 ---
 layout: book
-title: Children of Dune
+title: God Emperor of Dune
 author: Frank Herbert
 series: Dune
-volume: 2
+volume: 4
 categories: science-fiction fantasy
-year: 1976
-coverphoto: children-of-dune.jpeg
+year: 1981
+coverphoto: god-emperor-of-dune.jpg
 ---
+

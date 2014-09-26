@@ -1,11 +1,11 @@
 ---
 layout: book
-title: Lord of Chaos
+title: The Great Hunt
 author: Robert Jordan
 series: The Wheel of Time
-volume: 6
+volume: 2
 categories: fantasy
-year: 1994
-coverphoto: dune.jpeg
+year: 1990
+coverphoto: great-hunt.jpg
 ---
 

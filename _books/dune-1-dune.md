@@ -2,7 +2,7 @@
 layout: book
 title: Dune
 author: Frank Herbert
-series: Dune Chronicles
+series: Dune
 volume: 1
 categories: science-fiction fantasy
 year: 1969

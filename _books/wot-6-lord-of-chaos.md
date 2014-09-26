@@ -1,10 +1,11 @@
 ---
 layout: book
-title: The Eye of The World
+title: Lord of Chaos
 author: Robert Jordan
 series: The Wheel of Time
-volume: 1
+volume: 6
 categories: fantasy
-year: 1990
-coverphoto: eye-of-the-world.jpeg
+year: 1994
+coverphoto: lord-of-chaos.jpg
 ---
+

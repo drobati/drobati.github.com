@@ -12,7 +12,7 @@ permalink: /books/
     {% for book in site.books %}
       <li>
         <h4>
-          <a href="{{ book.url }}">{{ book.title }} by {{ book.author }}</a>
+          {{ book.title }} by {{ book.author }}
         </h4>
       </li>
     {% endfor %}
