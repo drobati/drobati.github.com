@@ -3,7 +3,7 @@ layout: book
 title: The Eye of The World
 author: Robert Jordan
 series: The Wheel of Time
-order: 1
+volume: 1
 categories: fantasy
 year: 1990
 coverphoto: dune.jpeg
