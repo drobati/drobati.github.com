@@ -2,8 +2,8 @@
 layout: book
 title: Dune Messiah
 author: Frank Herbert
-series: Dune Chronicles
-order: Dune Chronicles 3
+series: Dune
+volume: 3
 categories: science-fiction fantasy
 year: 1965
 coverphoto: dune.jpeg

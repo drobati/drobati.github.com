@@ -2,8 +2,8 @@
 layout: book
 title: Dune
 author: Frank Herbert
-series: Dune Chronicles
-order: Dune Chronicles 1
+series: Dune
+volume: 1
 categories: science-fiction fantasy
 year: 1969
 coverphoto: dune-messiah.jpeg
