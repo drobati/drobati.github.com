@@ -6,6 +6,6 @@ series: A Song of Ice and Fire
 volume: 2
 categories: fantasy
 year: 1998
-coverphoto: a-clash-of-kings.jpg
+coverphoto: clash-of-kings.jpeg
 ---
 

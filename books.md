@@ -6,17 +6,20 @@ permalink: /books/
 
 <div class="home">
 
-  <p>I love to read, so here's what is on my bookshelf.</p>
+<p>I love to read, so here's what is on my bookshelf.</p>
 
-  <ul class="post-list">
-    {% for book in site.books %}
-      <li>
+<div id="shelf">
+  <div id="columns">
+  {% for book in site.books %}
+    <div class="pin">
+        <img src="/assets/covers/{{ book.coverphoto }}" />
         <h4>
-          {{ book.title }} by {{ book.author }}
+        {{ book.title }}
         </h4>
-      </li>
-    {% endfor %}
-  </ul>
+    </div>
+  {% endfor %}
+  </div>
+</div>
 
 </div>
 

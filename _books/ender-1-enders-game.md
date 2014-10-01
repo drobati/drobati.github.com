@@ -6,6 +6,6 @@ series: Ender's Game
 volume: 1
 categories: science-fiction
 year: 1985
-coverphoto: enders-game.jpg
+coverphoto: enders-game.jpeg
 ---
 

@@ -6,6 +6,6 @@ series: Ender's Shadow
 volume: 1
 categories: science-fiction
 year: 1999
-coverphoto: enders-shadow.jpg
+coverphoto: enders-shadow.jpeg
 ---
 

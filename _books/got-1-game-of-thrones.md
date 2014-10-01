@@ -6,6 +6,6 @@ series: A Song of Ice and Fire
 volume: 1
 categories: fantasy
 year: 1996
-coverphoto: game-of-thrones.jpg
+coverphoto: game-of-thrones.jpeg
 ---
 

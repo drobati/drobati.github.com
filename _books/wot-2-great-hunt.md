@@ -6,6 +6,6 @@ series: The Wheel of Time
 volume: 2
 categories: fantasy
 year: 1990
-coverphoto: great-hunt.jpg
+coverphoto: great-hunt.jpeg
 ---
 

@@ -6,7 +6,7 @@ series: None
 volume: 1
 categories: Fiction
 year: 2003
-coverphoto: time-travelers-wife.jpg
+coverphoto: the-time-travelers-wife.jpeg
 ---
 
 A romance of a time traveler and his relationship through out his life with his

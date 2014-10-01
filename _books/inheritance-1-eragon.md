@@ -6,6 +6,6 @@ series: Inheritance Cycle
 volume: 1
 categories: fantasy
 year: 2002
-coverphoto: eragon.jpg
+coverphoto: eragon.jpeg
 ---
 

@@ -6,5 +6,5 @@ series: Dune
 volume: 2
 categories: science-fiction fantasy
 year: 1976
-coverphoto: children-of-dune.jpeg
+coverphoto: children-of-dune.jpg
 ---
