@@ -10,9 +10,9 @@ categories: vim
 I've changed from Pathogen to Vundle, which had a tremendous improvement
 in control over my vim plugins.
 
-```vim
+{% highlight vim %}
 Plugin 'gmarik/Vundle.vim'
-```
+{% endhighlight %}
 
 The reason I believe Vundle is better, is because I previously managed all vim
 bundles with git submodule. Git submodule is just not for me. It's issue is that
@@ -22,15 +22,15 @@ tomorrow-night.
 
 With Vundle, I can add tomorrow-theme/vim/ into the runtime path.
 
-```vim
+{% highlight vim %}
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-```
+{% endhighlight %}
 
 # Numbers
 
-```vim
+{% highlight vim %}
 Plugin 'myusuf3/numbers.vim'
-```
+{% endhighlight %}
 
 Myusuf3's numbers.vim is so awesome, if you haven't seen it I think it's
 probably the first thing you should check out. Essentially, normal mode has
@@ -38,16 +38,16 @@ realtive line numbering, and insert mode has absolute line numbering.
 
 # Easymotion
 
-```vim
+{% highlight vim %}
 Plugin 'Lokaltog/vim-easymotion'
-```
+{% endhighlight %}
 
 If you thought numbers.vim was awesome, Lokatog's vim-easymotion is even cooler!
 These are the tweaks I use. Easymotion recommends customizing to your needs.
 Also, in the current master vim-seek is pretty much implemented as a plug within
 easymotion. Insanely fast cursor positioning.
 
-```vim
+{% highlight vim %}
 " EasyMotion
 let g:EasyMotion_do_mapping = 0       " Disable default mappings
 nmap s <Plug>(easymotion-bd-w)
@@ -63,11 +63,11 @@ map <Leader>h <Plug>(easymotion-linebackward)
 let g:EasyMotion_startofline = 0      " keep cursor column when JK motion
 let g:EasyMotion_smartcase = 1        " type `l` and match `l`&`L`
 let g:EasyMotion_use_smartsign_us = 1 " type `3` and match `3`&`#`
-```
+{% endhighlight %}
 
 # Git and Gists
 
-```vim
+{% highlight vim %}
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mattn/webapi-vim'
@@ -84,7 +84,7 @@ let g:gist_open_browser_after_post = 1
 let g:gist_browser_command = 'firefox %URL%'
 let g:gist_show_privates = 1
 let g:gist_post_private = 1
-```
+{% endhighlight %}
 
 * vim-gitgutter, shows you additions and deletions in the gutter next to the
 numberline.
@@ -94,11 +94,11 @@ numberline.
 
 # Gundo
 
-```vim
+{% highlight vim %}
 Plugin 'sjl/gundo.vim'
 
 nnoremap <F5> :GundoToggle<CR>
-```
+{% endhighlight %}
 
 Navigate vim's undo __tree__. Yes, you heard me right. Undo tree, means undo two
 steps back and branch off. Don't like that branch go back to the root and head
@@ -106,7 +106,7 @@ back up to where you were before. Insane!
 
 # Snippets
 
-```vim
+{% highlight vim %}
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
@@ -115,23 +115,23 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
 let g:ultisnips_python_style="google"
-```
+{% endhighlight %}
 
 Snippets from textmate! You can even customize the docstring style, which is way
 impressive.
 
 # Surround
 
-```vim
+{% highlight vim %}
 Plugin 'tpope/vim-surround'
-```
+{% endhighlight %}
 
 Add characters around visually selected text. Change a pair of double qoutes to
 single quotes. Lot's of useful manipulations of characters that surround text.
 
 # Syntax Checking
 
-```vim
+{% highlight vim %}
 Plugin 'scrooloose/syntastic'
 
 let g:syntastic_check_on_open=1
@@ -139,18 +139,18 @@ let g:syntastic_error_symbol='X'
 let g:syntastic_warning_symbol='!'
 let g:syntastic_auto_loc_list=2
 let g:syntastic_loc_list_height=5
-```
+{% endhighlight %}
 
 Syntax and Style checking in vim. Very useful. It has dependencies on external
 tools, for instance pylint. Very useful.
 
 # Code structure
 
-```vim
+{% highlight vim %}
 Plugin 'majutsushi/tagbar'
 
 nmap <F8> :TagbarToggle<CR>
-```
+{% endhighlight %}
 
 So, I've looked at sublime-text's minimap, and while these two things are not
 completely similar, I think tagbar is more useful in respects to understanding
@@ -158,9 +158,9 @@ unfamiliar code quickly.
 
 # Python Virtualenv
 
-```vim
+{% highlight vim %}
 Plugin 'jmcantrell/vim-virtualenv'
-```
+{% endhighlight %}
 
 So, since I use virtualenv and virtualenvwrapper, without this plugin syntastic
 yells that imports of modules within a virtualenv don't exist.
