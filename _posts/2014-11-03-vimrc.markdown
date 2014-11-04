@@ -5,7 +5,7 @@ date:   2014-11-03 18:44:00
 categories: vim
 ---
 
-Full vimrc at ![ .vimrc ](https://gist.github.com/3f489530d6beb42a1c11).
+Full vimrc at [ .vimrc ](https://gist.github.com/3f489530d6beb42a1c11).
 
 # Pathogen vs Vundle
 
