@@ -5,6 +5,8 @@ date:   2014-11-03 18:44:00
 categories: vim
 ---
 
+Full vimrc at ![ .vimrc ](https://gist.github.com/3f489530d6beb42a1c11).
+
 # Pathogen vs Vundle
 
 I've changed from Pathogen to Vundle, which had a tremendous improvement
@@ -24,12 +26,20 @@ With Vundle, I can add tomorrow-theme/vim/ into the runtime path.
 
 {% highlight vim %}
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+colorscheme Tomorrow-Night
+" or any of the other themes
+" colorscheme Tomorrow
+" colorscheme Tomorrow-Night-Blue
+" colorscheme Tomorrow-Night-Bright
+" colorscheme Tomorrow-Night-Eighties
 {% endhighlight %}
 
 # Numbers
 
 {% highlight vim %}
 Plugin 'myusuf3/numbers.vim'
+" in vim 704 you must set numbers
+set number
 {% endhighlight %}
 
 Myusuf3's numbers.vim is so awesome, if you haven't seen it I think it's
