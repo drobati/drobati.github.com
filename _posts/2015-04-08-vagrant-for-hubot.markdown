@@ -6,6 +6,8 @@ categories: vagrant hubot
 ---
 # Setting up the project
 
+## Using GitHub and tools.
+
 1. Open GitHub for Windows.
 
 ![Create](/assets/vagrant-hubot/20150409014340699.png)
@@ -48,6 +50,8 @@ The context menu will allow us to explore the files.
 
 We can also use the git shell. Helpful for vagrant commands.
 
+## Setting up a Vagrantfile.
+
 ![vagrant init](/assets/vagrant-hubot/20150409022131738.png)
 
 Execute `vagrant init`.
@@ -70,6 +74,8 @@ Clean out comments, while following them.
 
 Set `config.vm.box` to "ubuntu/trusty64". I went ahead and finished the rest of
 the file too. Enable a provisioner, too. In this case we will use shell.
+
+## Committing the work.
 
 ![Cherry-pick](/assets/vagrant-hubot/20150409024206143.png)
 
