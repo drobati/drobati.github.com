@@ -16,10 +16,12 @@ categories: vagrant hubot
     1. Name it.
     2. Give it a path.
     3. Create it.
+![Publish](http://www.robati.com/assets/vagrant-hubot/20150409015228820.png)
 3. Publish the repository.
     1. Set repo name.
     2. Enter a description.
     3. Release it to the world.
+![Pull Request](http://www.robati.com/assets/vagrant-hubot/20150409021356892.png)
 4. Use github website to open pull request.
     - Open branch, with a new name. I commited here already.
     1. Select new branch.
