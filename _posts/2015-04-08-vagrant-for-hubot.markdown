@@ -9,6 +9,7 @@ categories: vagrant hubot
 1. Open GitHub for Windows.
 
 ![Create](/assets/vagrant-hubot/20150409014340699.png)
+
 1. Create repository.
     1. Name it.
     2. Give it a path.
