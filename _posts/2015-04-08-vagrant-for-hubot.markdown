@@ -41,12 +41,18 @@ categories: vagrant hubot
 ![vagrant init](/assets/vagrant-hubot/20150409022131738.png)
     1. vagrant init
 7. Clean Vagrantfile!
+![Vagrantfile](/assets/vagrant-hubot/20150409022331290.png)
     1. Explore project.
     2. Open prefered editor.
+![Clean it](/assets/vagrant-hubot/2015040902301634.png)
     3. Clean out comments, while following them. Duh.
 8. Set base box.
-    1. Set `config.vm.box` to "ubuntu/trusty64"
+    1. Search for a box.
+![Baseboxes](/assets/vagrant-hubot/20150409023133858.png)
+    2. Set `config.vm.box` to "ubuntu/trusty64"
+![Finished](/assets/vagrant-hubot/20150409023754975.png)
 9. Enable a provisioner. In this case we will use shell.
+![Cherry-pick](/assets/vagrant-hubot/20150409024206143.png)
 10. Commit cherry-picked lines or the whole file. I prefer detail.
 11. Sync commits or view the pull request.
 12. Open commandline.
