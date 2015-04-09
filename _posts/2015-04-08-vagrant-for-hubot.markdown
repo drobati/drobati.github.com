@@ -9,7 +9,7 @@ categories: vagrant hubot
 In this phase I will be setting up the project and structuring the project for
 future commits. The goal will just be to get Vagrant running. No frills.
 
-## Using GitHub and tools.
+## Using GitHub and tools. [#1](https://github.com/desert-planet/vagrant-hubot/pull/1)
 
 1. Open GitHub for Windows.
 
@@ -100,6 +100,9 @@ _Did vagrant start for you?!_ After executing `vagrant up` we should have seen
 it worked. Because it's headless, you wont see the GUI. This means to interact
 with it we must use `vagrant ssh`.
 
-# Telling the Provisioner how to setup the system!
+# Telling the Provisioner how to setup the system! [#2](https://github.com/desert-planet/vagrant-hubot/pull/3)
 
-1. Working on it.
+The intent with this phase is to configure the provisioner to install nodejs,
+which includes node and npm. There is also a few libs and finally git.
+
+I then should be able to pull the repo as the pull request description says.
