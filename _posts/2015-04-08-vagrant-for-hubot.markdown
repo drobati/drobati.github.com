@@ -11,18 +11,18 @@ categories: vagrant hubot
 # Setting up the project
 
 1. Open GitHub for Windows.
-![Create](assets/vagrant-hubot/20150409014340699.png)
+![Create](/assets/vagrant-hubot/20150409014340699.png)
 2. Create repository.
     1. Name it.
     2. Give it a path.
     3. Create it.
-![Overview](assets/vagrant-hubot/20150409014615118.png)
-![Publish](assets/vagrant-hubot/20150409015228820.png)
+![Overview](/assets/vagrant-hubot/20150409014615118.png)
+![Publish](/assets/vagrant-hubot/20150409015228820.png)
 3. Publish the repository.
     1. Set repo name.
     2. Enter a description.
     3. Release it to the world.
-![Pull Request](assets/vagrant-hubot/20150409021356892.png)
+![Pull Request](/assets/vagrant-hubot/20150409021356892.png)
 4. Use github website to open pull request.
     - Open branch, with a new name. I commited here already.
     1. Select new branch.
@@ -31,13 +31,14 @@ categories: vagrant hubot
     4. Make sure to notice the commit listed.
     5. Create the request.
 5. Update client.
-![Branch](assets/vagrant-hubot/2015040902160166.png)
+![Branch](/assets/vagrant-hubot/2015040902160166.png)
     1. Select new pull requested tracked branch.
-![Context](assets/vagrant-hubot/20150409021804331.png)
+![Context](/assets/vagrant-hubot/20150409021804331.png)
     2. The context menu will allow us to explore the files.
-![Git Shell](assets/vagrant-hubot/20150409022031767.png)
+![Git Shell](/assets/vagrant-hubot/20150409022031767.png)
     3. We can also use the git shell. Helpful for vagrant commands.
 6. Open commandline.
+![vagrant init](/assets/vagrant-hubot/20150409022131738.png)
     1. vagrant init
 7. Clean Vagrantfile!
     1. Explore project.
