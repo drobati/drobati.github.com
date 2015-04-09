@@ -6,6 +6,9 @@ categories: vagrant hubot
 ---
 # Setting up the project
 
+In this phase I will be setting up the project and structuring the project for
+future commits. The goal will just be to get Vagrant running. No frills.
+
 ## Using GitHub and tools.
 
 1. Open GitHub for Windows.
