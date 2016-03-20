@@ -2,5 +2,22 @@
 layout: default
 title: About
 ---
-<p><p>
+<div class="home">
+  {% assign post = site.posts.first %}
+  {% assign page = post %}{% comment %}Might make more sense to change page to post below{% encomment %}
+  {% assign content = post.content %}
+
+  <div class="post">
+  
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+  
+    <article class="post-content">
+      {{ content }}
+    </article>
+  
+  </div>
+
+</div>
 
