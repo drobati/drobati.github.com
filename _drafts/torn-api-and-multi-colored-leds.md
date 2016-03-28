@@ -19,8 +19,8 @@ categories: generic
 
 ## WRAP UP
 
-## Thanks
+### Thanks
 
+* Greg
 * Julia
 * Tomasz
-* Greg
