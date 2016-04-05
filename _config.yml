@@ -10,7 +10,7 @@ github_username:  drobati
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rogue
 github: [Repository metadata]
 
 # Bookshelf
