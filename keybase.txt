@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/drobati
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://robati.com
+  * I am drobati (https://keybase.io/drobati) on keybase.
+  * I have a public key with fingerprint 3544 48FE F4CD ACBC 6422  E8F9 4C89 FDAC B0AB D317
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120d045fa5b05de77f35baac6d4f381528511d997cf99fecf947e9895592f83d8c10a",
+            "fingerprint": "354448fef4cdacbc6422e8f94c89fdacb0abd317",
+            "host": "keybase.io",
+            "key_id": "4c89fdacb0abd317",
+            "kid": "0101115c2526b2a9a3ad562f0917430175dd7acb2fe36d3736b3e8c30fed4d960c6d0a",
+            "uid": "d64317548b8ede46cb8fb86ff7b52119",
+            "username": "drobati"
+        },
+        "service": {
+            "hostname": "robati.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1461792774,
+    "expire_in": 157680000,
+    "prev": "fd289307eb8195a6828ff0a64cbaa5a80d36d501bae38b3026a82f0a92d8aa7e",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNrAnicbVJtUFRVGF4EUbZAIEAiSLyIZsPQ/f5YEobxI4ElKRgwgaFz7zkXLuDu
+tntZRdygjHF0iMkkayISp7IUFAbhB7JqoKCR1PDVJKJDkCPJOFQyIwhG95L+6/w4
+Z857nuc5z/ucc8XX02D0MB963NjcMLja48fOmhJD1lrcuwwTrbAUM5VhRWhpQcUQ
+OdS8IgViJgwnSBziNCMDRsQZiDhOphgRAImFtEzxBEPyDEFAQeAkWRBkpM00hwRe
+YBiBlHkK8hKBAywGkxVLPrLb7IpF1WQphqZpXkYyLUEgiRJLkyTiNa7EC7JewYEI
+KYLTiAVWh87QzInAgWIVq1bTNnlL9v4H/9Q3ThAEI5EMyYokEAAFIMOSMi4QHE3h
+BMdAyGk8UkYUCymOYkUK8RKFywjSUGBxrcEl3yVLcpClNXWG5kUeQUSzksjLIs/K
+MicyJEEIOtCB7BawG+lou1UEqoK5YjCt6FQkpOeqN/IE8N95rGTdrRFtdqtqlazF
+Wr1AVW0mnaaW2nTcHiTmPVHIExUL1DLUCE5kdyhWC2YiNKSkKrokQbMEJ5AcR8dg
+aK9NsaM8RUcwHMvj2tCvQU5NUoYkL1A4h0SeEBjA8iQvyzhgaUl7VQbwONTyYHBC
+BIjiRQonWcBrsQGBhDwAHML0nt6xWDVtQvMJ8jVNh5JvAWqJHWGurs4cL4OH0eC9
+fJn+uQxGH/+nX86VtGoxu6+bUuPXkXjKmHGh31lyIeFk40bXmvvjWTkzGZnP1/Vv
+P97tLFjnijl8pC18x7j/Wx0vLCv/1I0o7zsRu6YOz3/dk72Qe9t3wr/ng1yvW5k7
+o864F8ErbWeg1X3WlDx1hPeJClo13Oo1NntA7V0JAhNf32cZL61L3/Rhcj4XfDAy
+x6sx5mZ8++P4mTAwkf5ntv2jsXjVYy4rZIVf2mV37Nb3p+s/XtGx5Tcl7Oj1EPXq
+ZOrD6rMDll/7pKb6CBD+s9116rTfe3Edzcd6J7uP3zzGvNvVOJzwcCTop5zaEwM+
+BzamebIVSabKyL0prfcfXW8Ljk++G7AhWo4bervCWDB4rYZ8iT5X9Yah88uJynnf
+6A0ZfkMLO9ffcNfuaPriM3UX88uDV9tu7L8Wn2jbvu1KR3X1i1Nr+twe5q/Og+T1
+4ScOPUONRneerLmU0us/41mWXXXxzr3VGcmpraHOlX9/Qtb5vfZsTX3oCKxoMTfI
+SXmj7WUt5y5VphU3NV5d++CvstzhkfI/7m3elxU2JEwmhPaVB6g9t2beDJh+ZPL7
+ZzQq0pyzdT4icNYMaiuqwm2FR8OavGf7mkvS8p/bNGj8Ni5k+e8/NCQH86cGLkKj
+4eXN32e2zBUelM4ndCYGmae/S/dKKyw6PbF4NyG03fV51/49npdvh84hGW/xme4I
+3FZ0IfWbzH78X1VfucI=
+=TvbS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/drobati
+
+==================================================================
