@@ -2,7 +2,6 @@
   "version": "3.0.0",
   "name": "gatsby-starter-lumen",
   "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
-  "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
@@ -18,8 +17,8 @@
     "test:watch": "jest --watch --config ./jest/jest-config.js",
     "release": "standard-version"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/drobati/drobati.github.com",
+  "author": "Derek Robati <derek.robati@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",

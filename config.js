@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://robati.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Derek Robati',
+  subtitle: 'Full-Stack JavaScript Developer, Husband, Father, Nerd',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
