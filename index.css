@@ -19,7 +19,7 @@
 }
 
 html {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.11111vw;
   margin: 0px 50px;
   padding-bottom: 100px;
@@ -27,9 +27,25 @@ html {
 
 header {
   border-bottom: thick solid var(--blue-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1, h2, h3 {
+.icons *:link {
+  color: var(--blue-1);
+}
+
+.icons *:visited {
+  color: var(--blue-1);
+}
+
+.icons i {
+  padding-left: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
@@ -64,4 +80,8 @@ h1, h2, h3 {
 
 ul {
   line-height: 1.7;
+}
+
+i.fas, i.fab {
+  font-size: 48px;
 }
