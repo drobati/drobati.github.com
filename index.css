@@ -1,0 +1,50 @@
+:root {
+  --gray-1: #333333;
+  --gray-2: #4F4F4F;
+  --gray-3: #828282;
+  --gray-4: #BDBDBD;
+  --gray-5: #E0E0E0;
+  --gray-6: #F2F2F2;
+  --red: #EB5757;
+  --orange: #F2994A;
+  --yellow: #F2C94C;
+  --green-1: #219653;
+  --green-2: #27AE60;
+  --green-3: #6FCF97;
+  --blue-1: #2F80ED;
+  --blue-2: #2D9CDB;
+  --blue-3: #56CCF2;
+  --purple-1: #9B51E0;
+  --purple-2: #BB6BD9;
+}
+
+html {
+  font-family: "Inter var", sans-serif;
+  font-size: 1.11111vw;
+  margin: 0px 50px;
+}
+
+header {
+  border-bottom: thick solid var(--blue-1);
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+.position {
+  padding-left: 20px;
+  border-left: medium solid var(--blue-1);
+}
+
+.location {
+  color: var(--blue-1);
+}
+
+.date {
+  color: var(--blue-1);
+}
+
+.duration {
+  color: var(--blue-1);
+}
