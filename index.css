@@ -45,6 +45,10 @@ header {
   align-items: center;
 }
 
+i.fas, i.fab {
+  font-size: 48px;
+}
+
 .icons *:link {
   color: var(--blue-1);
 }
@@ -54,7 +58,15 @@ header {
 }
 
 .icons i {
+  font-size: 60px;
   padding-left: 10px;
+}
+
+@media all and (max-device-width: 480px) {
+  .icons i {
+    font-size: 120px;
+    padding-left: 15px;
+  }
 }
 
 .title {
@@ -88,8 +100,4 @@ header {
 
 ul {
   line-height: 2em;
-}
-
-i.fas, i.fab {
-  font-size: 48px;
 }
