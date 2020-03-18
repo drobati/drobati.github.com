@@ -101,3 +101,24 @@ i.fas, i.fab {
 ul {
   line-height: 2em;
 }
+
+h1.not-found {
+  font-size: 400px;
+  text-align: center;
+  line-height: 0em;
+  letter-spacing: .1em;
+}
+
+p.not-found {
+  text-align: center;
+}
+
+@media all and (max-device-width: 480px) {
+  h1.not-found {
+    letter-spacing: .02em;
+  }
+
+  p.not-found {
+    text-align: center;
+  }
+}
