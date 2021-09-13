@@ -32,7 +32,15 @@
             <p class="date">Feburary 2019 &mdash; Present</p>
             <section class="position">
                 <h3>Senior Software Engineer</h3>
-                <p class="duration">1 year 1 month</p>
+                <p class="duration">
+                    <script type=”text/javascript”>
+                        var timeStart = new Date("02/01/2019");
+                        var timeEnd = new Date();
+                        var years = timeEnd.getFullYear() - timeStart.getFullYear();
+                        var months = timeEnd.getMonth() - timeStart.getMonth();
+                        document.write(years + " years, " + months + " months");
+                    </script>
+                </p>
                 <ul>
                     <li>Redesigned merchant details to use new API endpoints, replaced reducer with more concise design, and fixed HOC verbosity.</li>
                     <li>Redesigned equipment feature to have meta-data driven approach.</li>
