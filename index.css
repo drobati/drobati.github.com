@@ -19,6 +19,17 @@
   --purple-2: #BB6BD9;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --blue-4: #6DA7F3;
+  }
+  
+  body {
+    color: #eee;
+    background: #121212;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
