@@ -30,30 +30,6 @@ body {
   display: none;
 }
 
-@media screen and (max-device-width: 480px) {
-  body {
-    margin: .5em 1em;
-  }
-  
-  i.fas, i.fab {
-    font-size: .5rem;
-  }
-}
-
-@media print {
-  body {
-    margin: 0;
-  }
-  
-  .icons {
-    display: none;
-  }
-  
-  .socials {
-    display: block;
-  }
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -142,5 +118,30 @@ p.not-found {
 
   p.not-found {
     text-align: center;
+  }
+}
+
+
+@media screen and (max-device-width: 480px) {
+  body {
+    margin: .5em 1em;
+  }
+  
+  i.fas, i.fab {
+    font-size: .5rem;
+  }
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+  
+  .icons {
+    display: none;
+  }
+  
+  .socials {
+    display: block;
   }
 }
