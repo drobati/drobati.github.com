@@ -30,11 +30,23 @@ body {
     font-size: 35px;
     margin: .5em 1em;
   }
+  
+  .socials {
+    display: none;
+  }
 }
 
 @media print {
   body {
     margin: 0;
+  }
+  
+  .icons {
+    display: none;
+  }
+  
+  .socials {
+    display: block;
   }
 }
 
