@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  border-bottom: thick solid var(--blue-1);
+  border-bottom: thick solid var(--blue-4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,11 +48,11 @@ i.fas, i.fab {
 }
 
 .icons *:link {
-  color: var(--blue-1);
+  color: var(--blue-4);
 }
 
 .icons *:visited {
-  color: var(--blue-1);
+  color: var(--blue-4);
 }
 
 .icons i {
@@ -81,7 +81,7 @@ i.fas, i.fab {
 
 .position {
   padding-left: 20px;
-  border-left: medium solid var(--blue-1);
+  border-left: medium solid var(--blue-4);
 }
 
 .location {
@@ -128,7 +128,7 @@ p.not-found {
   }
   
   i.fas, i.fab {
-    font-size: 2em;
+    font-size: 4em;
   }
 }
 
