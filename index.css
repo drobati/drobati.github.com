@@ -14,6 +14,7 @@
   --blue-1: #2F80ED;
   --blue-2: #2D9CDB;
   --blue-3: #56CCF2;
+  --blue-4: #0E54AF;
   --purple-1: #9B51E0;
   --purple-2: #BB6BD9;
 }
@@ -105,15 +106,15 @@ i.fas, i.fab {
 }
 
 .location {
-  color: var(--blue-1);
+  color: var(--blue-4);
 }
 
 .date {
-  color: var(--blue-1);
+  color: var(--blue-4);
 }
 
 .duration {
-  color: var(--blue-1);
+  color: var(--blue-4);
 }
 
 ul {
