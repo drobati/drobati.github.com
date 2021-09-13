@@ -25,14 +25,14 @@ body {
   margin: .5em 10em;
 }
 
+.socials {
+  display: none;
+}
+
 @media screen and (max-device-width: 480px) {
   body {
     font-size: 35px;
     margin: .5em 1em;
-  }
-  
-  .socials {
-    display: none;
   }
 }
 
