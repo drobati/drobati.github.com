@@ -32,7 +32,11 @@ body {
 
 @media screen and (max-device-width: 480px) {
   body {
-    margin: 0;
+    margin: .5em 1em;
+  }
+  
+  i.fas, i.fab {
+    font-size: 16px;
   }
 }
 
