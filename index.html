@@ -1,149 +1,257 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Derek Robati</title>
-        <link rel="stylesheet" type="text/css" href="/index.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-        <script src="https://kit.fontawesome.com/8124d5a63a.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Website of Derek Robati, Senior Full Stack JavaScript Engineer">
+        <meta name="description" content="Derek Robati — Team Lead and Full-Stack Engineer building distributed payment processing systems with React, Node.js, Kubernetes, and Kafka.">
+        <meta property="og:title" content="Derek Robati">
+        <meta property="og:description" content="Team Lead and Full-Stack Engineer building distributed payment processing systems with React, Node.js, Kubernetes, and Kafka.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://robati.com">
+        <link rel="icon" href="/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/index.css">
     </head>
     <body>
-        <header>
-            <h1>Derek<br />Robati</h1>
-            <div class="icons">
-                <a href="https://github.com/drobati" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/drobati/" aria-label="LinkedIn Link"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:recruit@robati.com" aria-label="EMail Address"><i class="fas fa-envelope"></i></a>
-            </div>
-            <div class="socials">
-                <p>https://github.com/drobati</p>
-                <p>https://www.linkedin.com/in/drobati/</p>
-                <p>recruit@robati.com</p>
-            </div>
-        </header>
-        <h1 class="title">Experience</h1>
-        <section class="employer">
-            <h2>Priority Payment Systems</h2>
-            <p class="location">Alpharetta, Georgia</p>
-            <p class="date">Feburary 2019 &mdash; Present</p>
-            <section class="position">
-                <h3>Senior Software Engineer</h3>
-                <p class="duration" id="currentPosition">
-                    2 years
-                </p>
-                <ul>
-                    <li>Developed a codemod replacing internal legacy routing with React Router. This improved the performance, reliability, and made it easier for developers to work with the new routing system.</li>
-                    <li>Redux state was removed and React Query was implemented to improve performance and enhance the developer experience. This improved the overall performance and reliability of the company's software.</li>
-                    <li>Redesigned merchant details to use new API endpoints, which improved the performance and reliability of the company's online services.</li>
-                    <li>Developed KYC features and an auto underwriting feature for the underwriting team, integrating with third-party APIs to provide a seamless user experience. This sped up on boarding to less than a day from 3 weeks.</li>
-                    <li>Redesigned and developed pricing to allow for complex effective start and end dates, which improved the customer experience and led to increased sales.</li>
-                    <li>Using an Agile methodology developed many requirement-driven features and fixed various bugs on the UI and Node.js microservices.</li>
-                    <li>Unit tests were written for all work to ensure that it was reliable and well-tested, achieving 100% coverage. This helped to improve the quality and reliability of the company's software.</li>
-                    <li>Developed a CLI tool that improved the productivity and accuracy of developers, reducing the time and effort required for various tasks. This helped to improve the quality and reliability of the company's software.</li>
-                </ul>
+        <main>
+            <header class="animate" style="--i:0">
+                <div class="header-top">
+                    <h1>Derek Robati</h1>
+                    <button class="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                    </button>
+                </div>
+                <nav class="contact">
+                    <a href="https://github.com/drobati" aria-label="GitHub">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/drobati/" aria-label="LinkedIn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://blog.robati.com/" aria-label="Blog">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                        </svg>
+                        Blog
+                    </a>
+                    <a href="https://orbitabuilt.com" aria-label="Orbita">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(0 12 12)"/>
+                        </svg>
+                        Orbita
+                    </a>
+                    <a href="mailto:recruit@robati.com" aria-label="Email">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="M22 7l-10 7L2 7"/>
+                        </svg>
+                        recruit@robati.com
+                    </a>
+                    <a href="/derek-robati-resume.docx" aria-label="Download Resume as Word Document" download>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                        .docx
+                    </a>
+                </nav>
+                <div class="contact-print">
+                    <p>https://github.com/drobati</p>
+                    <p>https://www.linkedin.com/in/drobati/</p>
+                    <p>https://blog.robati.com</p>
+                    <p>https://orbitabuilt.com</p>
+                    <p>recruit@robati.com</p>
+                    <p>robati.com/derek-robati-resume.docx</p>
+                </div>
+            </header>
+
+            <p class="summary animate" style="--i:1">
+                Software engineer with 20 years of industry experience and 7+ years building distributed payment processing systems. Deep experience across merchant onboarding, risk and compliance, transaction processing, and processor integrations. Day-to-day across React, Node.js, Kubernetes, Kafka, Redis, MySQL, and Elasticsearch in a 60+ microservice environment.
+            </p>
+
+            <p class="skills animate" style="--i:1">
+                React &middot; Node.js &middot; TypeScript &middot; Go &middot; Python &middot; Kubernetes &middot; Docker &middot; Kafka &middot; Redis &middot; MySQL &middot; Elasticsearch &middot; AWS &middot; REST APIs &middot; CI/CD &middot; Git
+            </p>
+
+            <section>
+                <h2 class="section-title animate" style="--i:2">Experience</h2>
+
+                <article class="employer animate" style="--i:3">
+                    <h3 class="employer-name">Priority Payment Systems</h3>
+                    <p class="employer-meta">Alpharetta, Georgia &middot; February 2019 &mdash; Present</p>
+                    <div class="role">
+                        <h4 class="role-title">Team Lead</h4>
+                        <p class="role-duration" id="currentPosition"></p>
+                        <ul>
+                            <li>Managing 6 engineers across two teams with 3 direct reports, conducting regular one-on-ones and mentoring developers on technical growth and career development.</li>
+                            <li>Running daily "ticket talk" sessions where engineers surface blocking issues and get hands-on help to move past them, keeping sprint velocity high.</li>
+                            <li>Leading cross-functional PCI DSS compliance initiatives, coordinating security assessments, remediation, and audit preparation across engineering.</li>
+                            <li>Driving SOX compliance by implementing internal controls over financial reporting systems, ensuring data integrity and auditability across payment workflows.</li>
+                            <li>Architected and shipped an ACH reject handling system, reducing manual intervention and improving reconciliation accuracy for failed transactions.</li>
+                            <li>Championing AI adoption across the engineering organization, introducing tooling and workflows that accelerate development velocity.</li>
+                            <li>Built MCP servers that give AI assistants context into the platform's orchestration layer and automate test merchant onboarding, reducing setup friction for developers.</li>
+                            <li>Evaluating and integrating observability and session analytics platforms to improve production visibility and user experience insights.</li>
+                            <li>Serving as the escalation point for Level 1 production incidents after years of on-call rotations, triaging and resolving critical issues across the platform.</li>
+                        </ul>
+                    </div>
+                    <div class="role">
+                        <h4 class="role-title">Senior Software Engineer</h4>
+                        <p class="role-duration">6 years 7 months</p>
+                        <ul>
+                            <li>Core contributor to a merchant management platform handling onboarding, risk assessment, underwriting, KYC, and transaction reporting across major payment processor integrations.</li>
+                            <li>Built and maintained integrations with external payment processors and internal products including banking and payroll services — delivered a payroll integration in 2 weeks vs. the typical 8-week timeline.</li>
+                            <li>Developed merchant-facing application UI and agent-facing tools for onboarding, case management, and ongoing merchant lifecycle operations.</li>
+                            <li>Worked across a 60+ microservice architecture on Kubernetes, leveraging Kafka for event streaming, Redis for caching, MySQL for persistence, and Elasticsearch for search and reporting.</li>
+                            <li>Built administration features including role-based access control, multitenancy, domain/permission management, and configurable branding and email templates.</li>
+                            <li>Shipped KYC and auto-underwriting features integrating third-party APIs, compressing merchant onboarding from 3 weeks to under a day.</li>
+                            <li>Conducted feasibility analysis on sunsetting 2 legacy applications, mapping dependencies and outlining migration paths for stakeholders.</li>
+                            <li>Led architecture improvements including migrating legacy routing to React Router, replacing Redux with React Query, and maintaining 100% unit test coverage across contributions.</li>
+                            <li>Created a CLI tool that simplified the team's branching strategy, adopted by developers to streamline day-to-day git workflows.</li>
+                            <li>Built a debugging UI for navigating complex audit logs, giving engineers fast visibility into transaction and system event history.</li>
+                            <li>Rotated on-call in two-week shifts for multiple years, diagnosing and resolving production issues across the stack at any hour.</li>
+                            <li>Built internal developer tooling that automated repetitive tasks, reducing manual effort and common errors.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="employer animate" style="--i:3">
+                    <h3 class="employer-name">Dispersive Networks, Inc.</h3>
+                    <p class="employer-meta">Alpharetta, Georgia &middot; July 2016 &mdash; January 2019</p>
+                    <div class="role">
+                        <h4 class="role-title">Director of Apps and Services</h4>
+                        <p class="role-duration">10 months</p>
+                        <ul>
+                            <li>Introduced React and Go as the team's core stack, establishing the architecture the team shipped and maintained.</li>
+                            <li>Built a React and Redux dashboard for real-time health monitoring of network elements.</li>
+                            <li>Owned the existing API and web interface, shipping features and resolving production issues.</li>
+                            <li>Created onboarding documentation and internal wiki resources adopted across engineering and operations.</li>
+                            <li>Managed a team of five across four OS platforms, a web application, and multiple microservices.</li>
+                        </ul>
+                    </div>
+                    <div class="role">
+                        <h4 class="role-title">Senior Software Engineer</h4>
+                        <p class="role-duration">1 year 11 months</p>
+                        <ul>
+                            <li>Prototyped an engineering dashboard that validated the target tech stack and informed the team's architecture direction.</li>
+                            <li>Shipped features and fixes for the web admin panel and REST API.</li>
+                            <li>Contributed to UI/UX design reviews and architecture decisions shaping the product roadmap.</li>
+                            <li>Wrote comprehensive unit tests for the REST interface, establishing the team's testing standards.</li>
+                            <li>Overhauled API documentation with versioning, request/response examples, and consistent formatting.</li>
+                            <li>Stood up GitLab CE from scratch, defined the git workflow, and implemented continuous delivery across the team.</li>
+                            <li>Built a prototype Kafka event pipeline with Go microservices, deployable across multiple Docker containers.</li>
+                            <li>Administered the Jenkins CI server and maintained build nodes for each supported OS.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="employer animate" style="--i:4">
+                    <h3 class="employer-name">ADVA Optical Networking North America, Inc.</h3>
+                    <p class="employer-meta">Norcross, Georgia &middot; May 2006 &mdash; July 2016</p>
+                    <div class="role">
+                        <h4 class="role-title">Software Production Engineer</h4>
+                        <p class="role-duration">1 year</p>
+                        <ul>
+                            <li>Collaborated remotely with an international engineering team across multiple time zones.</li>
+                            <li>Built Python API wrappers for Collabnet, Artifactory, Jenkins, and Git, simplifying cross-tool automation.</li>
+                            <li>Created a changelog generator that linked commits to user stories, giving stakeholders clear release visibility.</li>
+                            <li>Built an internal release notes system that auto-generated reports of build metadata and code changes.</li>
+                            <li>Provisioned simulation build infrastructure used by the team to validate builds before production.</li>
+                            <li>Developed an Artifactory CLI tool for querying, filtering, and fetching build artifacts.</li>
+                        </ul>
+                    </div>
+                    <div class="role">
+                        <h4 class="role-title">Systems Integration Testing Engineer</h4>
+                        <p class="role-duration">4 years</p>
+                        <ul>
+                            <li>Standardized test environments using Vagrant, ensuring consistent Unix setups across the team.</li>
+                            <li>Proposed and implemented the team's first continuous integration workflow.</li>
+                            <li>Built test automation suites and a reusable Python testing framework adopted across multiple products.</li>
+                            <li>Developed Test Set libraries that mapped requirements to executable test coverage.</li>
+                            <li>Derived test plans from product requirements across multiple product lines.</li>
+                            <li>Delivered live product demos to existing and prospective clients.</li>
+                        </ul>
+                    </div>
+                    <div class="role">
+                        <h4 class="role-title">Operations &amp; Production Test Engineer</h4>
+                        <p class="role-duration">4 years</p>
+                        <ul>
+                            <li>Built TestStand suites that validated manufacturing limits on newly produced modules.</li>
+                            <li>Created an internal Django web app that gave other departments visibility into Test Engineering projects.</li>
+                        </ul>
+                    </div>
+                    <div class="role">
+                        <h4 class="role-title">Internship</h4>
+                        <p class="role-duration">1 year</p>
+                        <ul>
+                            <li>Gained hands-on experience with fiber optic telecommunications technology and industry protocols.</li>
+                            <li>Performed precision calibration of test and measurement equipment.</li>
+                            <li>Extended an internal wxPython desktop application with new features for the engineering team.</li>
+                        </ul>
+                    </div>
+                </article>
             </section>
-        </section>
-        <section class="employer">
-            <h2>Dispersive Networks, Inc.</h2>
-            <p class="location">Alpharetta, Georgia</p>
-            <p class="date">July 2016 &mdash; January 2019</p>
-            <section class="position">
-                <h3>Director of Apps and Services</h3>
-                <p class="duration">10 months</p>
-                <ul>
-                    <li>Introduced React and Go ecosystem that team developed and deployed.</li>
-                    <li>Continued to develop features and fix bugs with team.</li>
-                    <li>Developed a client-side React and Redux interface for health checking of network elements.</li>
-                    <li>Maintained existing API and web interface.</li>
-                    <li>Expanded knowledge base and onboarding material in wiki to share with team and other departments.</li>
-                    <li>Taught others how and why to provision elements in system.</li>
-                    <li>Supported a team of five responsible for four operating systems, web, and microservices.</li>
-                </ul>
+
+            <section>
+                <h2 class="section-title animate" style="--i:5">Education</h2>
+
+                <article class="school animate" style="--i:6">
+                    <h3 class="school-degree">Bachelor of Science in Computer Science</h3>
+                    <p class="school-name">Southern Polytechnic State University</p>
+                    <p class="school-meta">Marietta, Georgia &middot; August 2009 &mdash; December 2011</p>
+                    <p class="school-note">Courses explored outside core degree classes include Digital Image Processing, OpenGL, and Distributed Computing.</p>
+                </article>
             </section>
-            <section class="position">
-                <h3>Senior Software Engineer</h3>
-                <p class="duration">1 year 11 months</p>
-                <ul>
-                    <li>Developed an engineering dashboard with as a prototype of desired stack.</li>
-                    <li>Developed features and bug fixes for our web admin and REST interface.</li>
-                    <li>Involved in UI/UX designs and architecture discussions.</li>
-                    <li>Developed unit tests for the REST interface.</li>
-                    <li>Improved API docs adding versioning, success examples, ect.</li>
-                    <li>Proposed, developed, and deployed GitLabs CE, git workflow, and continuous delivery of builds.</li>
-                    <li>Developed prototype Kafka infrastructure that was deployable in multiple docker containers along with microservices written in Go.</li>
-                    <li>Maintained our Jenkins server and all build nodes for each OS.</li>
-                </ul>
-            </section>
-        </section>
-        <section class="employer">
-            <h2>ADVA Optical Networking North America, Inc.</h2>
-            <p class="location">Norcross, Georgia</p>
-            <p class="date">May 2006  &mdash; July 2016</p>
-            <section class="position">
-                <h3>Software Production Engineer</h3>
-                <p class="duration">1 year</p>
-                <ul>
-                    <li>Remote team-member with international team.</li>
-                    <li>Implemented Pythonic abstractions of APIs for Collabnet, Artifactory, Jenkins, and Git Repositories.</li>
-                    <li>Developed a change log generator linking commits to user stories.</li>
-                    <li>Developed internal release notes system generating reports of build info and what changed.</li>
-                    <li>Deployed simulation build infrastructure for testing builds on.</li>
-                    <li>Developed artifactory cli tool for querying and fetching builds.</li>
-                </ul>
-            </section>
-            <section class="position">
-                <h3>Systems Integration Testing Engineer</h3>
-                <p class="duration">4 years</p>
-                <ul>
-                    <li>Used Vagrant for unix test environment.</li>
-                    <li>Proposed and implemented continuous integration workflow.</li>
-                    <li>Development of test automation suites.</li>
-                    <li>Developed automation Python framework.</li>
-                    <li>Developed Test Set libraries.</li>
-                    <li>Constructed test coverage from requirements for many products.</li>
-                    <li>Demonstrated product functionality to current and potential clients.</li>
-                </ul>
-            </section>
-            <section class="position">
-                <h3>Operations & Production Test Engineer</h3>
-                <p class="duration">4 years</p>
-                <ul>
-                    <li>Developed TestStand suites on test benches to examine limits of newly manufactured modules.</li>
-                    <li>Developed internal website with Django to display Test Engineering projects to other departments.</li>
-                </ul>
-            </section>
-            <section class="position">
-                <h3>Internship</h3>
-                <p class="duration">1 year</p>
-                <ul>
-                    <li>Learned technologies used in the fiber optical telecommunications field.</li>
-                    <li>Calibrated equipment.</li>
-                    <li>Learned telecommunication standards and protocols.</li>
-                    <li>Extended wxPython application to support more features.</li>
-                </ul>
-            </section>
-        </section>
-        <h1 class="title">Education</h1>
-        <section class="school">
-            <h2>Bachelor of Science in Computer Science</h2>
-            <p>Southern Polytechnic State University</p>
-            <p class="location">Marietta, Georgia</p>
-            <p class="date">August 2009 &mdash; December 2011</p>
-            <p>Courses explored outside core degree classes include Digital Image Processing, OpenGL, and Distributed Computing.</p>
-        </section>
+        </main>
+
         <script>
-            var timeStart = new Date("02/01/2019");
-            var timeEnd = new Date();
-            var years = timeEnd.getFullYear() - timeStart.getFullYear();
-            var months = timeEnd.getMonth() - timeStart.getMonth();
-            console.log({years, months});
-            p = document.getElementById('currentPosition');
-            txt = document.createTextNode(years + " years, " + months + " months");
-            p.innerText = txt.textContent;
+            (() => {
+                // Tenure calculator
+                const start = new Date('2025-09-01');
+                const now = new Date();
+                let years = now.getFullYear() - start.getFullYear();
+                let months = now.getMonth() - start.getMonth();
+                if (months < 0) {
+                    years--;
+                    months += 12;
+                }
+                const el = document.getElementById('currentPosition');
+                if (el) {
+                    const totalMonths = years * 12 + months;
+                    if (years >= 1) {
+                        el.textContent = `${years} year${years !== 1 ? 's' : ''}, ${months} month${months !== 1 ? 's' : ''}`;
+                    } else {
+                        el.textContent = `${totalMonths} month${totalMonths !== 1 ? 's' : ''}`;
+                    }
+                }
+
+                // Theme toggle
+                const root = document.documentElement;
+                const stored = localStorage.getItem('theme');
+                const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const isDark = stored ? stored === 'dark' : systemDark;
+                root.classList.toggle('dark', isDark);
+
+                const toggle = document.querySelector('.theme-toggle');
+                if (toggle) {
+                    toggle.addEventListener('click', () => {
+                        const nowDark = root.classList.toggle('dark');
+                        localStorage.setItem('theme', nowDark ? 'dark' : 'light');
+                    });
+                }
+            })();
         </script>
     </body>
 </html>
